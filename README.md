@@ -54,7 +54,7 @@ Local storage is implemented to track whether the user has completed the tour gu
 
 ## Getting Started
 
-Provide instructions on how to set up and run the project on a local development environment. Include any prerequisites, installation steps, and configuration.
+-Clone the repository by copying the link, on your terminal run git clone the (the link), the after cloning run npm install to install dependencies then finally npm start to run the project
 
 ## Usage
 
