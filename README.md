@@ -7,6 +7,7 @@ A system that monitors and does proper documentation of user applications in the
 ## Table of Contents
 
 - [Screenshots](#screenshots)
+- [Demo](#Demo)
 - [Technologies Used](#technologies-used)
 - [Icons](#icons)
 - [Functionalities](#functionalities)
@@ -17,6 +18,10 @@ A system that monitors and does proper documentation of user applications in the
 ## Screenshots
 
 ![Capital Multidashboard screensnhot homescreen](src/assets/app.png)
+
+## Demo
+
+[Live Demo](https://capitalplacementdashboardtask.netlify.app/) 
 
 ## Technologies Used
 
