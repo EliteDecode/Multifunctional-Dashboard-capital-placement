@@ -1,8 +1,8 @@
 ---
 
-# Project Name
+# Capital Placement Multipurpose Dashboard Task
 
-A brief description of this project.
+A system that monitors and does proper documentation of user applications in the firm.
 
 ## Table of Contents
 
