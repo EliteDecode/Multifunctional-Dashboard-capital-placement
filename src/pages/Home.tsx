@@ -51,7 +51,7 @@ const Home = () => {
       if (!tourCompleted) {
         setOpen(true);
       }
-    }, 2000);
+    }, 1000);
 
     return () => {
       clearTimeout(skeletonTimer);
