@@ -1,46 +1,83 @@
-# Getting Started with Create React App
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Name
 
-## Available Scripts
+A brief description of this project.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Screenshots](#screenshots)
+- [Technologies Used](#technologies-used)
+- [Icons](#icons)
+- [Functionalities](#functionalities)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Screenshots
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![Capital Multidashboard screensnhot homescreen](src/assets/app.png)
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. [Ant Design (AntD)](https://ant.design/): A popular React UI library for building web applications with a clean and modern design.
 
-### `npm run build`
+2. [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework that simplifies building responsive and highly customizable web interfaces.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. [React Chart.js](https://www.chartjs.org/): A JavaScript library for creating interactive and visually appealing charts and graphs in React applications.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Icons
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Icons used in the project are sourced from Ant Design Icons.
 
-### `npm run eject`
+## Functionalities
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 1. Routing
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The project includes routing between the home page and info page to view details of each firm's overview.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### 2. Tour Guide
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+At the beginning, a tour guide is provided to help users understand the features and functionalities of the application.
 
-## Learn More
+### 3. Line Graph
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+A line graph is used to display an overview of application data.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 4. Tabular Representation
+
+The application presents data in a tabular format for easy reference and analysis.
+
+### 5. Local Storage
+
+Local storage is implemented to track whether the user has completed the tour guide. It ensures that the tour guide is only shown once to first-time users.
+
+## Getting Started
+
+Provide instructions on how to set up and run the project on a local development environment. Include any prerequisites, installation steps, and configuration.
+
+## Usage
+
+1. Monthly Application Tracking: With proper backend implementation, this project can be used to track the number of job applications received each month. This data can help organizations analyze trends, assess the effectiveness of recruitment strategies, and make data-driven decisions to improve their hiring processes.
+
+2. Staff Documentation and Planning: The project facilitates the documentation of staff-related information, including applications, qualifications, and hiring status. This information can be used for workforce planning, identifying skill gaps, and ensuring that staffing needs are met.
+
+3. Data-Driven Decision-Making: By visualizing application data through line graphs and tabular representations, users can make informed decisions. Insights from the data can be used to optimize recruitment efforts, allocate resources effectively, and improve overall efficiency.
+
+4. Predictive Analysis: Over time, the project accumulates historical data on job applications. This data can be used for predictive analysis, such as forecasting future application trends, identifying potential recruitment challenges, and planning for workforce expansion or contraction.
+
+5. Efficient Reporting: The project simplifies the process of generating reports related to job applications. Users can easily access and export data for reporting purposes, streamlining the reporting workflow.
+
+## Contributing
+
+1. Backend Development: Contributors can extend the project's functionality by creating a backend that connects to a database. This backend can handle dynamic data storage, retrieval, and processing, making the application more versatile.
+
+2. Enhanced Tracking: Additional pages and features can be added to track other entities beyond job applications. For example, contributors can implement modules for tracking employee onboarding, performance reviews, or training programs.
+
+3. Integration with External Systems: Integration with external systems, such as HR management tools or data analytics platforms, can be explored. This can enhance the project's ability to gather and analyze data from various sources.
+
+4. User Experience Improvements: Contributors can work on improving the user interface and user experience (UI/UX) of the application. Enhancements may include responsive design, accessibility features, and intuitive navigation.
+
+5. Documentation and Testing: Thorough documentation of the codebase, including API documentation if a backend is implemented, can aid both contributors and users. Additionally, contributions related to automated testing to ensure code quality and reliability are valuable.
+
+--By expanding the project's capabilities and actively engaging with contributors, it can evolve into a powerful tool for organizations seeking to optimize their hiring processes and make data-informed HR decisions.
